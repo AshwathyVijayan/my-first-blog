@@ -29,7 +29,7 @@ class Product(models.Model):
     mrp = models.FloatField()
     vat = models.FloatField()
     def __str__(self):
-        return self.title
+        return self.pname
 
 class Course(models.Model):
     course_name = models.CharField(max_length=20)
